@@ -1,0 +1,67 @@
+.h5_componentbar {
+    left: 100px;
+}
+
+.h5_componentbar .line{
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 15px;
+}
+
+.h5_componentbar .name{
+    width: 80px;
+    float: left;
+    color: #000;
+    text-align: center;
+}
+
+.h5_componentbar .rate{
+    height: 15px;
+    margin-left: 5px;
+    float: left;
+    position: relative;
+    margin-right: 5px;
+    /*background-color: #99c0ff;*/
+}
+
+.h5_componentbar .rate .bg{
+    background-color: #f0f8ff;
+    width: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    border-radius: 3px;
+}
+
+.h5_componentbar .peer{
+    margin-left: 5px;
+    width: 20px;
+    text-align: center;
+    color: #99c0ff;
+    float: left;
+    opacity: 0;
+}
+
+/*生长*/
+
+.h5_componentbar_load .rate .bg{
+    width: 100%;
+    -webkit-transition: all 1s .5s;
+    background-color: #99c0ff;
+}
+
+.h5_componentbar_load .peer{
+    -webkit-transition: all 1s 1.5s;
+    opacity:  1;
+}
+
+.h5_componentbar_leave .peer{
+    -webkit-transition: all 1s .5s;
+    opacity: 0;
+}
+
+.h5_componentbar_leave .rate .bg{
+    width: 0%;
+    -webkit-transition: all 1.5s;
+}

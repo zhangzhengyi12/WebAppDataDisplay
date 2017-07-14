@@ -1,0 +1,48 @@
+#loading{
+    position: absolute;
+    z-index: 9999;
+    width: 100vw;
+    height: 100vh;
+    background-color: #48BEFE;
+    background-image: url("../img/loading3.gif") ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+h3 {
+    margin: 0;
+}
+
+/*重置h3的默认上下margin*/
+
+body {
+    /*background-color: lightblue;*/
+}
+
+.h5_component_name_caption {
+    background-image: url("../img/page_caption_bg.png");
+    width: 283px;
+    height: 160px;
+    text-align: center;
+    line-height: 140px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.h5_page {
+    top: 100px;
+    background-image: url("../img/page_bg.png");
+}
+
+.h5_component_name_back {
+    top: 30px;
+    -webkit-animation: back 2s infinite 2s;
+}
+
+@-webkit-keyframes back {
+    50% {
+        top: 20px
+    }
+    
+}

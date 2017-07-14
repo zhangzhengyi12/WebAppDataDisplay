@@ -1,0 +1,23 @@
+.h5_componentrader canvas{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.h5_componentrader .Text{
+    position: absolute;
+    font-size: 12px;
+    z-index: 5;
+    transition: all 1s ;
+    opacity: 0;
+}
+
+.h5_componentrader_leave .Text{
+    opacity: 0;
+}
+
+.h5_componentrader_load .Text{
+    opacity: 1;
+}
